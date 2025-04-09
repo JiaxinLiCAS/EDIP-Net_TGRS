@@ -9,15 +9,16 @@ Enhanced Deep Image Prior for Unsupervised Hyperspectral Image Super-resolution,
 
 Our paper is accepted by IEEE Transactions on Geoscience and Remote Sensing (TGRS). 
 
-The final version can be downloaded in  🖼️[**PDF**](./Imgs/EDIP-Net.pdf)
+文章可在这里下载🖼️[**PDF**](./Imgs/EDIP-Net.pdf)，The final version can be downloaded in  🖼️[**PDF**](./Imgs/EDIP-Net.pdf) 
 
-More information can be found in my [Google Scholar Citations](https://scholar.google.com/citations?user=aSPDpmgAAAAJ&hl=zh-CN) and my [ResearchGate](https://www.researchgate.net/profile/Jiaxin-Li-lijiaxin?ev=hdr_xprf)
+
+这是我的[谷歌学术](https://scholar.google.com/citations?user=aSPDpmgAAAAJ&hl=zh-CN)和[ResearchGate](https://www.researchgate.net/profile/Jiaxin-Li-lijiaxin?ev=hdr_xprf)，More information can be found in my [Google Scholar Citations](https://scholar.google.com/citations?user=aSPDpmgAAAAJ&hl=zh-CN) and my [ResearchGate](https://www.researchgate.net/profile/Jiaxin-Li-lijiaxin?ev=hdr_xprf)
 
 <img src="./Imgs/fig1.png" width="666px"/>
 
 **Fig.1.** Overall Pipeline of proposed method, abbreviated as EDIP-Net, for the task of unsupervised hyperspectral image super-resolution.
 
-## Directory structure
+## 文件结构 Directory structure
 <img src="./Imgs/fig2.png" width="200px"/>
 
 **Fig.2.** Directory structure. There are four folders and one main.py file in EDIP-Net_TGRS-main.
@@ -85,7 +86,7 @@ This folder consists of ten .py files, including
 ### main
 - `main.py`: main.py 运行该文件，生成目标图像
 
-## How to run our code
+## 如何运行我们的代码 How to run our code
 - Requirements: codes of networks were tested using PyTorch 1.9.0 version (CUDA 11.4) in Python 3.8.10 on Windows system.
 
 - Parameters: all the parameters need fine-tunning can be found in `config.py`. 本方法所有需要调整的参数都在此.py中
@@ -101,7 +102,7 @@ This folder consists of ten .py files, including
   当你运行本代码后，将会生成` TGSF12_band260_S1_0.001_3000_3000_S2_0.004_2000_2000_S3_0.004_7000_7000` 文件夹，里面存储所有结果
 
 
-## Contact
+## 如何联系我们 Contact
 遇到任何问题，包括但不限于代码调试、数据仿真、运行结果等，随时添加
 $\color{red}{我的微信(WeChat): BatAug，欢迎交流与合作}$
 
