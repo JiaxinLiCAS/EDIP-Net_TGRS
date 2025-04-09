@@ -106,4 +106,4 @@ This folder consists of ten .py files, including
 遇到任何问题，包括但不限于代码调试、数据仿真、运行结果等，随时添加
 $\color{red}{我的微信(WeChat): BatAug，欢迎交流与合作}$
 
-If you encounter any bugs while using this code, please do not hesitate to contact us.
+If you encounter any bugs while using this code, please do not hesitate to contact us. lijiaxin203@mails.ucas.ac.cn
